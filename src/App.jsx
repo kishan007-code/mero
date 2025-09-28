@@ -54,8 +54,6 @@ const [captchaClickCount, setCaptchaClickCount] = useState(0);
     "Unilever Ltd",
     "NTC-corp",
     "KP Woli-exp",
-    "Balen-Dozer",
-    "Harka-GreenT",
   ];
   function playClickSound() {
     if (!audioCtxRef.current) {
