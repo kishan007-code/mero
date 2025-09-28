@@ -34,6 +34,8 @@ const [captchaClickCount, setCaptchaClickCount] = useState(0);
  const companies = [
    "Sagar Distillery Ltd (For General Publc)",
    "Jhapa Energy Limited (General)",
+   "Balen-Dozer",
+    "Harka-GreenT",
     "Bungal Hydro Limited (General Public)",
     "Bandipur Cable Car and Tourism Ltd (General Public)",
     "Nepal Infrastructure Bank Limited",
