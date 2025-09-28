@@ -11,7 +11,7 @@ import "./index.css";
  */
 
 export default function App() {
-  const [company, setCompany] = useState("Jhapa Energy Limited (General)");
+  const [company, setCompany] = useState("Sagar Distillery Ltd (For General Publc)");
   const [boid, setBoid] = useState("");
   const [captcha, setCaptcha] = useState({ question: "2 + 3", answer: 5 });
 
