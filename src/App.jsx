@@ -32,7 +32,7 @@ const [captchaClickCount, setCaptchaClickCount] = useState(0);
   setCaptchaInput(""); // clear input
 }
  const companies = [
-    "Super Khudi Hydropower Limited (For General Public)"
+    "Super Khudi Hydropower Limited (For General Public)",
     "Ridge Line Energy Limited (For General Public)",
     "Hotel Forest Inn Limited (For General Public)",
     "Balen-Dozer",
