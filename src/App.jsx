@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { color, motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 import "./index.css";
 
 /**
@@ -314,6 +315,7 @@ function handleView() {
  
   
 </div>
+      <Analytics />
     </div>
   );
 }
