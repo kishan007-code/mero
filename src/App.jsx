@@ -11,7 +11,7 @@ import "./index.css";
  */
 
 export default function App() {
-  const [company, setCompany] = useState("Sagar Distillery Ltd (For General Publc)");
+  const [company, setCompany] = useState("Super Khudi Hydropower Limited (For General Public)");
   const [boid, setBoid] = useState("");
   const [captcha, setCaptcha] = useState({ question: "2 + 3", answer: 5 });
 
@@ -32,10 +32,15 @@ const [captchaClickCount, setCaptchaClickCount] = useState(0);
   setCaptchaInput(""); // clear input
 }
  const companies = [
-   "Sagar Distillery Ltd (For General Publc)",
-   "Jhapa Energy Limited (General)",
-   "Balen-Dozer",
+    "Super Khudi Hydropower Limited (For General Public)"
+    "Ridge Line Energy Limited (For General Public)",
+    "Hotel Forest Inn Limited (For General Public)",
+    "Balen-Dozer",
     "Harka-GreenT",
+    "RaSwoPa-Ghanti",
+    "Kal0-Congoress 0.2",
+    "Sagar Distillery Ltd (For General Public)",
+    "Jhapa Energy Limited (General)",
     "Bungal Hydro Limited (General Public)",
     "Bandipur Cable Car and Tourism Ltd (General Public)",
     "Nepal Infrastructure Bank Limited",
@@ -132,6 +137,7 @@ function handleView() {
         "You're close... to being not-allotted. Haha!",
         "IPO होइन, आशा मात्र बाँडेको हो हामीले। 😜",
         "भाग्य तेरो कपाल झैँ पातलो छ, allotment मा के पाउँछस् र!",
+        "Wait a minute...WHO ARE YOU??",
 
       ];
       const msg = pranks[Math.floor(Math.random() * pranks.length)];
